@@ -1,0 +1,204 @@
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 220px;
+	margin-top: 10px;
+}
+.focus {
+	float: left;
+	height: 455px;
+	width: 721px;
+}
+.newsflash {
+	float: right;
+	height: 455px;
+	width: 250px;
+}
+.news {
+	height: 165px;
+	border: 1px solid #e4e4e4;
+}
+.news-hd {
+	height: 33px;
+	border-bottom: 1px dotted #e4e4e4;
+	padding: 0 15px;
+	line-height: 33px;
+}
+.news-hd h5 {
+	float: left;
+	font-size: 14px;
+}
+.news-hd .more {
+	float: right;
+}
+.news-hd .more::after {
+	content: "\e919";
+	font-family: "icomoon";
+}
+.news-bd {
+	padding: 5px 15px 0;
+}
+.news-bd ul li {
+	height: 24px;
+	line-height: 24px;
+}
+.lifeservice {
+	height: 209px;
+	border: 1px solid #e4e4e4;
+	border-top: 0;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 252px;
+}
+.lifeservice ul li {
+	height: 71px;
+	width: 63px;
+	float: left;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+}
+.lifeservice ul li i {
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+}
+.lifeservice ul li:first-child i {
+	background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.lifeservice ul li:nth-child(2) i {
+	background: url(../images/icons.png) no-repeat -80px -15px;
+}
+.lifeservice ul li:nth-child(3) i {
+	background: url(../images/icons.png) no-repeat -141px -15px;
+}
+.lifeservice ul li:nth-child(4) i {
+	background: url(../images/icons.png) no-repeat -206px -15px;
+}
+.lifeservice ul li:nth-child(5) i {
+	background: url(../images/icons.png) no-repeat -19px -85px;
+}
+.lifeservice ul li:nth-child(6) i {
+	background: url(../images/icons.png) no-repeat -80px -85px;
+}
+.lifeservice ul li:nth-child(7) i {
+	background: url(../images/icons.png) no-repeat -141px -85px;
+}
+.lifeservice ul li:nth-child(8) i {
+	background: url(../images/icons.png) no-repeat -206px -85px;
+}
+.lifeservice ul li:nth-child(9) i {
+	background: url(../images/icons.png) no-repeat -19px -156px;
+}
+.lifeservice ul li:nth-child(10) i {
+	background: url(../images/icons.png) no-repeat -80px -156px;
+}
+.lifeservice ul li:nth-child(11) i {
+	background: url(../images/icons.png) no-repeat -141px -156px;
+}
+.lifeservice ul li:last-child i {
+	background: url(../images/icons.png) no-repeat -206px -156px;
+}
+.bargain {
+	margin-top: 5px;
+}
+/* 推荐模块 */
+.recom {
+	margin-top: 12px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recom .recom-hd {
+	float: left;
+	height: 163px;
+	width: 205px;
+	background-color: #5c5251;
+	text-align: center;
+	padding-top: 30px;
+}
+.recom .recom-bd {
+	float: left;
+}
+.recom-bd ul li {
+	position: relative;
+	float: left;
+}
+.recom-bd ul li img {
+	width: 248px;
+	height: 163px;
+}
+.recom-bd ul li:nth-child(-n+3)::after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 1px;
+	height: 145px;
+	background-color: #ddd;
+}
+.box-hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+	font-weight: 400;
+}
+.box-hd .tab-list {
+	float: right;
+}
+.box-hd .tab-list ul li {
+	float: left;
+	line-height: 30px;
+}
+.box-hd .tab-list ul li a {
+	padding: 0 15px;
+}
+.floor .w {
+	margin-top: 30px;
+}
+.box-bd {
+	height: 361px;
+}
+.tab-list-item>div {
+	float: left;
+	height: 361px;
+}
+.col-210 {
+	width: 210px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+.col-210 ul li {
+	float: left;
+	width: 85px;
+	height: 34px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 34px;
+	margin-right: 10px;
+}
+.col-210 ul {
+	padding-left: 12px;
+}
+.col-210 a img {
+	margin-top: 20px;
+}
+.col-329 {
+	width: 329px;
+}
+.col-221 {
+	width: 221px;
+	border-right: 1px solid #ccc;
+}
+.col-219 {
+	width: 219px;
+}
+.bb {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
